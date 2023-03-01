@@ -541,6 +541,7 @@ figure {
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+    text-align: center;
 }
 
 .footer__wrapper {
@@ -549,11 +550,6 @@ figure {
 
 .footer {
     padding-top: 50px;
-    /* display: grid;
-    grid-template-areas:
-        "logo nav contacts sites"
-        ". copyright copyright .";
-    grid-template-columns: auto-fit; */
     display: flex;
     flex-direction: column;
 }
@@ -566,7 +562,6 @@ figure {
 
 .footer__logobox {
     display: flex;
-    /* grid-area: logo; */
 }
 
 .footer__logo-grey {
@@ -590,7 +585,6 @@ figure {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /* grid-area: nav; */
     width: max-content;
     height: 100%;
     margin-left: 30px;
@@ -607,7 +601,6 @@ figure {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* grid-area: contacts; */
 }
 
 .footer__contacts-link {
@@ -619,7 +612,6 @@ figure {
 
 .footer__sites {
     text-align: center;
-    /* grid-area: sites; */
 }
 
 .footer__sites-list {
