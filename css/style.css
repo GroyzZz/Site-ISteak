@@ -11,8 +11,6 @@ body {
     font-style: normal;
 }
 
-
-
 .background {
     background-position: center;
     background-size: cover;
@@ -21,7 +19,6 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(/images/background/background.jpg);
     filter: drop-shadow(2px 4px 15px rgba(0, 0, 0, 0.25));
 }
-
 
 .container {
     max-width: 1180px;
